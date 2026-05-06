@@ -5,20 +5,24 @@ menubar resolution switcher for macOS.
 
 ## Install
 
+### GUI menu-bar app (Cask)
+
+```bash
+brew install --cask m-moravcik/viberes/viberes-app
+```
+
+Upgrade later: `brew upgrade --cask m-moravcik/viberes/viberes-app`.
+
+### CLI companion (Formula)
+
 ```bash
 brew install m-moravcik/viberes/viberes
 ```
 
-That installs the `viberes` CLI companion. The GUI menubar app is distributed
-separately via [VibeRes Releases](https://github.com/m-moravcik/VibeRes/releases).
-
-To upgrade later:
-
-```bash
-brew upgrade m-moravcik/viberes/viberes
-```
+Upgrade later: `brew upgrade m-moravcik/viberes/viberes`.
 
 ## Source
 
-The actual formula lives in this repo (`Formula/viberes.rb`); the source code
-it builds is in [m-moravcik/VibeRes](https://github.com/m-moravcik/VibeRes).
+The actual formula and cask live in this repo (`Formula/viberes.rb`,
+`Casks/viberes-app.rb`); the source code they reference is in
+[m-moravcik/VibeRes](https://github.com/m-moravcik/VibeRes).
