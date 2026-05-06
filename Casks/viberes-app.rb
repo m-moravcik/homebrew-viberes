@@ -14,7 +14,7 @@ cask "viberes-app" do
 
   url "https://github.com/m-moravcik/VibeRes/releases/download/v#{version}/VibeRes-#{version}.zip"
   name "VibeRes"
-  desc "Modern menubar resolution switcher for macOS"
+  desc "Modern menubar resolution switcher"
   homepage "https://github.com/m-moravcik/VibeRes"
 
   livecheck do
