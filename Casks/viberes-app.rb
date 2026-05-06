@@ -9,8 +9,8 @@
 # strips the quarantine attribute on install so Gatekeeper doesn't block
 # the first launch.
 cask "viberes-app" do
-  version "0.4.0"
-  sha256 "7f802f962b89ab11df0ef90e64b6c05cbad72e9e6c245e64e45fd127ccc77fe2"
+  version "0.4.1"
+  sha256 "04920ea4df813d9b0b79a27c2924feb0b594daf9d84b149b9f1b82008c2b1062"
 
   url "https://github.com/m-moravcik/VibeRes/releases/download/v#{version}/VibeRes-#{version}.zip"
   name "VibeRes"
